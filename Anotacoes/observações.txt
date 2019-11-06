@@ -1,0 +1,83 @@
+<< *** BACKEND *** >>
+
+# MVC - model, view (razor) e controller ( retorna a view e não um json)
+no MVC já tem uma pasta dentro de wwwroot que contém bootstrap, css e js
+
+obs: razor é o nome dado ao novo View Engine do ASP.NET, que foi introduzido na terceira 
+versão do ASP.NET MVC. O Razor nada mais é do que a linguagem C#, ou VB.NET, trabalhando 
+em conjunto com código HTML, para a construção das suas páginas ASP.NET.
+
+# API (midway - meio entre o banco de dados e minha aplicação) - contém só controller
+
+# Api Rest e os verbos HTTP
+https://blog.mbeck.com.br/api-rest-e-os-verbos-http-46e189085e21
+
+# Como a minha aplicação sabe que estou em desenvolvimento?
+através do arquivo launchSettings.json ( está na pasta properties) a opção está Development e não Production
+
+# como sei que minha app vai ir direto para controller?
+dentro do arquivo Startup.cs 
+
+# model
+está associado ao meu banco de dados 
+
+# Data
+Um Data Context é um objeto do tipo System.Data.Linq.DataContext que suporta a atualização e 
+manutenção de um banco de dados para objetos conhecidos do LINQ efetuando o tratamento da conexão do banco de dados, dessa forma ,para acessar as tabelas de um banco de dados elas devem estar mapeadas e disponíveis em um objeto Data Context.
+https://www.treinaweb.com.br/blog/afinal-o-que-e-de-fato-o-linq/
+http://www.macoratti.net/09/08/lnq_dtctx.htm
+http://www.macoratti.net/08/10/adn_lnqe.htm
+http://www.macoratti.net/09/07/net_edm1.htm
+
+
+# Nuget
+ele mostra  as extenões CTRL + SHIFT + P 
+
+# DbSet
+toda vez que eu queira criar uma tabela
+
+# ActionResult
+retorna um template em razor
+
+# IActionResult
+retorna o ok
+
+# Thread (Linha de execução)
+http://www.macoratti.net/10/09/c_thd1.htm
+
+https://pt.stackoverflow.com/questions/2793/em-c-para-que-serve-a-palavra-chave-await
+
+Crei o Model, Data porque na WEBAPI não vem 
+
+<< *** FRONTEND *** >>
+
+e2e - voltado para teste unitário
+
+# Componente
+template - view ou layout // criado com html // inclui Binding e diretivas
+classe (propriedade/ métodos) - código para views / geralmente em TS / propriedade (DADOS) e métodos (LÓGICA)
+metadados - dados extras para o angular / definido com um decorator  ex:@ ... @Component 
+
+https://blog.geekhunter.com.br/um-overview-sobre-o-framework-angular/
+
+# Diretivas
+As diretivas são marcadores em um elemento DOM (como um atributo) que informam ao Angular para anexar 
+um comportamento especificado a um elemento existente.
+http://www.macoratti.net/18/06/ang_diret1.htm
+
+
+<< ** API ** >>
+
+1) importar no APP.MODULE.TS no IMPORTS HttpClientModule
+2) no componente .ts dentro do construtor eu vou injetar o http 
+
+# Interpolação {{}}
+back  p/ front (back exibindo no front)
+
+# Two-way data Binding [()]
+
+# Binding []
+
+
+OBJ do do main e repositiry 
+

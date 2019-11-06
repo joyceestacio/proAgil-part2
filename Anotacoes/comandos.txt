@@ -1,0 +1,19 @@
+#BACKEND
+
+dotnet new webapi -n ProAgil.WebAPI - criar uma api
+
+dotnet ef migrations add init - vai criar o diretório de migrations
+
+dotnet ef database update - update na tabela ( vai criar o db)
+
+
+#FRONTEND
+
+npm install -g @angular/cli 
+
+ng new nome do arquivo 
+
+ng serve -o  abrir o arquivo em uma nova janela
+
+#INSTALAR
+pm i --save bootstrap@fortawesome/fontawesome-free
